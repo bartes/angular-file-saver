@@ -65,5 +65,8 @@
     "precommit": "gulp build",
     "release": "gulp release",
     "test": "./node_modules/.bin/karma start karma.conf.js --single-run --browsers Firefox"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.9"
   }
 }
